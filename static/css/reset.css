@@ -1,0 +1,23 @@
+html,body,p,span,input,div,ul,li,a,header,footer,h1,h2,h3,h4,h5,h6,section,i{
+  margin: 0;
+  padding: 0;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+  line-height: 1;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent
+}
+body{
+  font-family: 'PingFang SC','Microsoft Yahei','SimSun', 'Songti SC' ;
+  font-size: 14px;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+.clearfix{*zoom:1;}
+.clearfix::after{content: "";display: table; clear: both;}
