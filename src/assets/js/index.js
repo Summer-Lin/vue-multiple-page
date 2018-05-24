@@ -3,8 +3,7 @@ import axios from "axios";
 // import { Toast, Indicator } from "mint-ui";
 // import router from "@/router";
 // import util from "@/util/";
-// 进度条
-import NProgress from 'nprogress'
+
 
 const Axios = axios.create({
   baseURL: "/", // 因为我本地做了反向代理
